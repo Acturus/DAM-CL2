@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">DAMCL2</string>
+    <string name="nombre">Nombre</string>
+    <string name="paterno">A. Paterno</string>
+    <string name="materno">A. Materno</string>
+    <string name="email">Email</string>
+    <string name="celular">Celular</string>
+    <string name="nacimiento">Nacimiento</string>
+    <string name="ubica">Ubicación</string>
+    <string name="registro">Registro</string>
+    <string name="gest_de_usuarios">GESTIÓN DE USUARIOS</string>
+    <string name="registrar_usuario">Registrar Usuario</string>
 </resources>

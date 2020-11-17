@@ -1,10 +1,19 @@
 package com.cibertec.damcl2.Helpers;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.Getter;
 
-
+@Data
+@Getter
+@AllArgsConstructor
 public class UserRow {
-    private int rank;
-    private String movieName;
-    private int year;
-    private int budgetInMillions;
+    private String nombre;
+    private String aparteno;
+    private String amaterno;
+    private String email;
+    private String celular;
+    private String fechaNac;
+    private String ubicacion;
+    private String fechaReg;
 }
