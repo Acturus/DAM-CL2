@@ -11,8 +11,8 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup">
-        <activity android:name=".AgregarUsuario"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".AgregarUsuario" android:noHistory="true" />
+        <activity android:name=".MainActivity" android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
