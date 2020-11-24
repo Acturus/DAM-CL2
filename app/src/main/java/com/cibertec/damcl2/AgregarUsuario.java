@@ -46,7 +46,7 @@ public class AgregarUsuario extends AppCompatActivity {
 
         UsersInterface api = retrofit.create(UsersInterface.class);
 
-        Call<String> call = api.createNewUser(nombres, apeMaterno, apeMaterno, email, celular, fechaNac, direccion, ubigeo);
+        Call<String> call = api.createNewUser(nombres, apePaterno, apeMaterno, email, celular, fechaNac, direccion, ubigeo);
 
         call.enqueue(new Callback<String>() {
             @Override
